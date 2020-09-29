@@ -1,0 +1,30 @@
+2020-09-29 21:10:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS 'WaterPipelines'[*] (IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS (IDX, IDY))"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS 'WaterPipelines' (idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points (idX, idY)) [42001-200]
+2020-09-29 21:10:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS WATERPIPELINES (IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS ([*]IDX, IDY))"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+CREATE TABLE IF NOT EXISTS WaterPipelines (idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points (idX, idY)) [42001-200]
+2020-09-29 21:13:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS WATERPIPELINES (ID INT AUTO_INCREMENT ,IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS ([*]IDX, IDY))"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+CREATE TABLE IF NOT EXISTS WaterPipelines (ID int auto_increment ,idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points (idX, idY)) [42001-200]
+2020-09-29 21:14:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF NOT[*] EXISTS WATERPIPELINES"; expected "EXISTS"; SQL statement:
+DROP TABLE IF NOT EXISTS WaterPipelines [42001-200]
+2020-09-29 21:15:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NO[*] EXISTS WATERPIPELINES"; expected "NOT"; SQL statement:
+CREATE TABLE IF NO EXISTS WaterPipelines [42001-200]
+2020-09-29 21:15:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF NOT[*] EXISTS WATERPIPELINES"; expected "EXISTS"; SQL statement:
+DROP TABLE IF NOT EXISTS WaterPipelines [42001-200]
+2020-09-29 21:16:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS WATERPIPELINES (IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS ([*]IDX, IDY))"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+CREATE TABLE IF NOT EXISTS WaterPipelines (idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points (idX, idY)) [42001-200]
+2020-09-29 21:16:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS WATERPIPELINES (IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS ([*]""idX"", IDY))"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+CREATE TABLE IF NOT EXISTS WaterPipelines (idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points ("idX", idY)) [42001-200]
+2020-09-29 21:18:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS WATERPIPELINES (IDX INT NOT NULL, IDY INT NOT NULL, DISTANCE INT NOT NULL, CONSTRAINT UC_POINTS ([*]IDX, IDY))"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+CREATE TABLE IF NOT EXISTS WaterPipelines (idX int NOT NULL, idY int NOT NULL, distance int NOT NULL, CONSTRAINT UC_Points (idX, idY)) [42001-200]
+2020-09-30 14:19:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WATERPIPELINES" not found; SQL statement:
+insert into WaterPipelines values(?, ?, ?) [42102-200]
